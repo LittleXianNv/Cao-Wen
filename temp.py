@@ -5,7 +5,7 @@ import sys
 
 #ip_list = ['18.188.168.68', '3.21.171.93', '18.223.166.10', '18.223.98.92', '3.21.186.8']
 ip_list = ['18.188.168.68', '3.21.171.93','18.223.166.10']
-log_file = {'18.188.168.68':'1.txt','3.21.171.93':'1.txt','18.223.166.10':'3.txt'}
+log_file = {'18.188.168.68':'1.txt','3.21.171.93':'1.txt','18.223.166.10':'gnu.txt'}
 def get_local_ip():
     command1 = shlex.split("curl http://169.254.169.254/latest/meta-data/public-ipv4")
     process = subprocess.Popen(command1,
@@ -21,11 +21,17 @@ c = 0
 
 subprocesses = {}
 argv = sys.argv
+num = len(argv)
+
 for ip in ip_list:
-    if ip != local_ip:
-        command = "ssh -i /home/ec2-user/key/test-key-pair.pem " + "ec2-user@" + ip + " grep " + "-" + argv[1] +" "+ argv[2]+" "+ log_file[ip]
+    if num == 2:
+        half_command = argv[1]+" "+log_file[ip]
     else:
-        command = "grep " + "-" + argv[1] +" "+ argv[2]+" "+ log_file[ip]
+        half_command = argv[1] +" "+ argv[2]+" "+log_file[ip]
+    if ip != local_ip:
+        command = "ssh -i /home/ec2-user/key/test-key-pair.pem " + "ec2-user@" + ip + " grep " + half_command
+    else:
+        command = "grep " + half_command
     print(command)
     command = shlex.split(command)
     process = subprocess.Popen(command,
