@@ -5,7 +5,7 @@ import sys
 
 #ip_list = ['18.188.168.68', '3.21.171.93', '18.223.166.10', '18.223.98.92', '3.21.186.8']
 ip_list = ['18.188.168.68', '3.21.171.93','18.223.166.10']
-log_file = ['1.txt','1.txt','2.txt']
+log_file = {'18.188.168.68':'1.txt','3.21.171.93':'1.txt','18.223.166.10':'3.txt'}
 def get_local_ip():
     command1 = shlex.split("curl http://169.254.169.254/latest/meta-data/public-ipv4")
     process = subprocess.Popen(command1,
@@ -19,21 +19,23 @@ local_ip = get_local_ip()
 print(local_ip)
 c = 0
 
-subprocesses = []
+subprocesses = {}
 argv = sys.argv
 for ip in ip_list:
     if ip != local_ip:
-        command = "ssh -i /home/ec2-user/key/test-key-pair.pem " + "ec2-user@" + ip + " grep " + "-" + argv[1] +" "+ argv[2]+" "+ log_file[c]
+        command = "ssh -i /home/ec2-user/key/test-key-pair.pem " + "ec2-user@" + ip + " grep " + "-" + argv[1] +" "+ argv[2]+" "+ log_file[ip]
     else:
-        command = "grep " + "-" + argv[1] +" "+ argv[2]+" "+ log_file[c]
+        command = "grep " + "-" + argv[1] +" "+ argv[2]+" "+ log_file[ip]
     print(command)
     command = shlex.split(command)
     process = subprocess.Popen(command,
                                stdout=subprocess.PIPE,
                                stderr=subprocess.PIPE)
-    subprocesses.append(process)
+    subprocesses[ip] = process
     c += 1
 
-for process in subprocesses:
-    stdout, stderr = process.communicate()
-    print(stdout)
+for key in subprocesses:
+    stdout, stderr = subprocesses[key].communicate()
+    result = stdout.rstrip()
+    print("Server ip: "+key +" Log file: "+log_file[key]+"\n" + result+'\n')
+
