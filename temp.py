@@ -5,7 +5,7 @@ import sys
 
 #ip_list = ['52.60.77.126', '35.182.255.151', '35.183.208.52', '35.183.29.42', '35.183.30.234','99.79.10.67']
 ip_list = ['52.60.77.126', '35.182.255.151','35.183.208.52']
-log_file = {'52.60.77.126':'1.txt','35.182.255.151':'1.txt','35.183.208.52':'gnu.txt'}
+log_file = {'52.60.77.126':'machine_1_log.txt','35.182.255.151':'machine_2_log.txt','35.183.208.52':'machine_3_log.txt'}
 def get_local_ip():
     command1 = shlex.split("curl http://169.254.169.254/latest/meta-data/public-ipv4")
     process = subprocess.Popen(command1,
