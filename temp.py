@@ -3,9 +3,9 @@ import shlex
 import os
 import sys
 
-#ip_list = ['18.188.168.68', '3.21.171.93', '18.223.166.10', '18.223.98.92', '3.21.186.8']
-ip_list = ['18.188.168.68', '3.21.171.93','18.223.166.10']
-log_file = {'18.188.168.68':'1.txt','3.21.171.93':'1.txt','18.223.166.10':'gnu.txt'}
+#ip_list = ['52.60.77.126', '35.182.255.151', '35.183.208.52', '35.183.29.42', '35.183.30.234','99.79.10.67']
+ip_list = ['52.60.77.126', '35.182.255.151','35.183.208.52']
+log_file = {'52.60.77.126':'1.txt','35.182.255.151':'1.txt','35.183.208.52':'gnu.txt'}
 def get_local_ip():
     command1 = shlex.split("curl http://169.254.169.254/latest/meta-data/public-ipv4")
     process = subprocess.Popen(command1,
@@ -29,7 +29,7 @@ for ip in ip_list:
     else:
         half_command = argv[1] +" "+ argv[2]+" "+log_file[ip]
     if ip != local_ip:
-        command = "ssh -i /home/ec2-user/key/test-key-pair.pem " + "ec2-user@" + ip + " grep " + half_command
+        command = "ssh -i /home/ec2-user/summer.pem " + "ec2-user@" + ip + " grep " + half_command
     else:
         command = "grep " + half_command
     print(command)
