@@ -1,18 +1,1 @@
-machine_1_log.txt:use, which is precisely where it is most unacceptable.  Therefore, we
-machine_1_log.txt:infringement under applicable copyright law, except executing it on a
-machine_1_log.txt:tells the user that there is no warranty for the work (except to the
-machine_2_log.txt:use, which is precisely where it is most unacceptable.  Therefore, we
-machine_2_log.txt:infringement under applicable copyright law, except executing it on a
-machine_2_log.txt:tells the user that there is no warranty for the work (except to the
-machine_3_log.txt:use, which is precisely where it is most unacceptable.  Therefore, we
-machine_3_log.txt:infringement under applicable copyright law, except executing it on a
-machine_3_log.txt:tells the user that there is no warranty for the work (except to the
-machine_4_log.txt:use, which is precisely where it is most unacceptable.  Therefore, we
-machine_4_log.txt:infringement under applicable copyright law, except executing it on a
-machine_4_log.txt:tells the user that there is no warranty for the work (except to the
-machine_5_log.txt:use, which is precisely where it is most unacceptable.  Therefore, we
-machine_5_log.txt:infringement under applicable copyright law, except executing it on a
-machine_5_log.txt:tells the user that there is no warranty for the work (except to the
-machine_6_log.txt:use, which is precisely where it is most unacceptable.  Therefore, we
-machine_6_log.txt:infringement under applicable copyright law, except executing it on a
-machine_6_log.txt:tells the user that there is no warranty for the work (except to the
+{'35.183.29.42': 'machine_4_log.txt:use, which is precisely where it is most unacceptable.  Therefore, we\nmachine_4_log.txt:infringement under applicable copyright law, except executing it on a\nmachine_4_log.txt:tells the user that there is no warranty for the work (except to the', '52.60.77.126': 'machine_1_log.txt:use, which is precisely where it is most unacceptable.  Therefore, we\nmachine_1_log.txt:infringement under applicable copyright law, except executing it on a\nmachine_1_log.txt:tells the user that there is no warranty for the work (except to the', '35.183.208.52': 'machine_3_log.txt:use, which is precisely where it is most unacceptable.  Therefore, we\nmachine_3_log.txt:infringement under applicable copyright law, except executing it on a\nmachine_3_log.txt:tells the user that there is no warranty for the work (except to the', '35.183.30.234': 'machine_5_log.txt:use, which is precisely where it is most unacceptable.  Therefore, we\nmachine_5_log.txt:infringement under applicable copyright law, except executing it on a\nmachine_5_log.txt:tells the user that there is no warranty for the work (except to the', '99.79.10.67': 'machine_6_log.txt:use, which is precisely where it is most unacceptable.  Therefore, we\nmachine_6_log.txt:infringement under applicable copyright law, except executing it on a\nmachine_6_log.txt:tells the user that there is no warranty for the work (except to the', '35.182.255.151': 'machine_2_log.txt:use, which is precisely where it is most unacceptable.  Therefore, we\nmachine_2_log.txt:infringement under applicable copyright law, except executing it on a\nmachine_2_log.txt:tells the user that there is no warranty for the work (except to the'}

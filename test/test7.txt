@@ -1,18 +1,1 @@
-machine_1_log.txt:that there is no warranty for this free software.  For both users' and
-machine_1_log.txt:  The precise terms and conditions for copying, distribution and
-machine_1_log.txt:License.  Each licensee is addressed as "you".  "Licensees" and
-machine_2_log.txt:that there is no warranty for this free software.  For both users' and
-machine_2_log.txt:  The precise terms and conditions for copying, distribution and
-machine_2_log.txt:License.  Each licensee is addressed as "you".  "Licensees" and
-machine_3_log.txt:that there is no warranty for this free software.  For both users' and
-machine_3_log.txt:  The precise terms and conditions for copying, distribution and
-machine_3_log.txt:License.  Each licensee is addressed as "you".  "Licensees" and
-machine_4_log.txt:that there is no warranty for this free software.  For both users' and
-machine_4_log.txt:  The precise terms and conditions for copying, distribution and
-machine_4_log.txt:License.  Each licensee is addressed as "you".  "Licensees" and
-machine_5_log.txt:that there is no warranty for this free software.  For both users' and
-machine_5_log.txt:  The precise terms and conditions for copying, distribution and
-machine_5_log.txt:License.  Each licensee is addressed as "you".  "Licensees" and
-machine_6_log.txt:that there is no warranty for this free software.  For both users' and
-machine_6_log.txt:  The precise terms and conditions for copying, distribution and
-machine_6_log.txt:License.  Each licensee is addressed as "you".  "Licensees" and
+{'35.183.29.42': 'machine_4_log.txt:that there is no warranty for this free software.  For both users\' and\nmachine_4_log.txt:  The precise terms and conditions for copying, distribution and\nmachine_4_log.txt:License.  Each licensee is addressed as "you".  "Licensees" and', '52.60.77.126': 'machine_1_log.txt:that there is no warranty for this free software.  For both users\' and\nmachine_1_log.txt:  The precise terms and conditions for copying, distribution and\nmachine_1_log.txt:License.  Each licensee is addressed as "you".  "Licensees" and', '35.183.208.52': 'machine_3_log.txt:that there is no warranty for this free software.  For both users\' and\nmachine_3_log.txt:  The precise terms and conditions for copying, distribution and\nmachine_3_log.txt:License.  Each licensee is addressed as "you".  "Licensees" and', '35.183.30.234': 'machine_5_log.txt:that there is no warranty for this free software.  For both users\' and\nmachine_5_log.txt:  The precise terms and conditions for copying, distribution and\nmachine_5_log.txt:License.  Each licensee is addressed as "you".  "Licensees" and', '99.79.10.67': 'machine_6_log.txt:that there is no warranty for this free software.  For both users\' and\nmachine_6_log.txt:  The precise terms and conditions for copying, distribution and\nmachine_6_log.txt:License.  Each licensee is addressed as "you".  "Licensees" and', '35.182.255.151': 'machine_2_log.txt:that there is no warranty for this free software.  For both users\' and\nmachine_2_log.txt:  The precise terms and conditions for copying, distribution and\nmachine_2_log.txt:License.  Each licensee is addressed as "you".  "Licensees" and'}

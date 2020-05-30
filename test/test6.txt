@@ -1,12 +1,1 @@
-machine_1_log.txt:GNU GENERAL PUBLIC LICENSE
-machine_1_log.txt:GNU General Public License for most of our software; it applies also to
-machine_2_log.txt:GNU GENERAL PUBLIC LICENSE
-machine_2_log.txt:GNU General Public License for most of our software; it applies also to
-machine_3_log.txt:GNU GENERAL PUBLIC LICENSE
-machine_3_log.txt:GNU General Public License for most of our software; it applies also to
-machine_4_log.txt:GNU GENERAL PUBLIC LICENSE
-machine_4_log.txt:GNU General Public License for most of our software; it applies also to
-machine_5_log.txt:GNU GENERAL PUBLIC LICENSE
-machine_5_log.txt:GNU General Public License for most of our software; it applies also to
-machine_6_log.txt:GNU GENERAL PUBLIC LICENSE
-machine_6_log.txt:GNU General Public License for most of our software; it applies also to
+{'35.183.29.42': 'machine_4_log.txt:GNU GENERAL PUBLIC LICENSE\nmachine_4_log.txt:GNU General Public License for most of our software; it applies also to', '52.60.77.126': 'machine_1_log.txt:GNU GENERAL PUBLIC LICENSE\nmachine_1_log.txt:GNU General Public License for most of our software; it applies also to', '35.183.208.52': 'machine_3_log.txt:GNU GENERAL PUBLIC LICENSE\nmachine_3_log.txt:GNU General Public License for most of our software; it applies also to', '35.183.30.234': 'machine_5_log.txt:GNU GENERAL PUBLIC LICENSE\nmachine_5_log.txt:GNU General Public License for most of our software; it applies also to', '99.79.10.67': 'machine_6_log.txt:GNU GENERAL PUBLIC LICENSE\nmachine_6_log.txt:GNU General Public License for most of our software; it applies also to', '35.182.255.151': 'machine_2_log.txt:GNU GENERAL PUBLIC LICENSE\nmachine_2_log.txt:GNU General Public License for most of our software; it applies also to'}
