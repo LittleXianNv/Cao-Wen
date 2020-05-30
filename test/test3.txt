@@ -1,0 +1,6 @@
+machine_1_log.txt:19
+machine_2_log.txt:19
+machine_3_log.txt:19
+machine_4_log.txt:19
+machine_5_log.txt:19
+machine_6_log.txt:19

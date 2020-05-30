@@ -1,0 +1,24 @@
+machine_1_log.txt:your programs, too.
+machine_1_log.txt:freedoms that you received.  You must make sure that they, to, receive
+machine_1_log.txt:  Developers that use the GNU GPL protect your rights with tw steps:
+machine_1_log.txt:a computer network, with no transfer of a copy, is not conveying.
+machine_2_log.txt:your programs, too.
+machine_2_log.txt:freedoms that you received.  You must make sure that they, to, receive
+machine_2_log.txt:  Developers that use the GNU GPL protect your rights with tw steps:
+machine_2_log.txt:a computer network, with no transfer of a copy, is not conveying.
+machine_3_log.txt:your programs, too.
+machine_3_log.txt:freedoms that you received.  You must make sure that they, to, receive
+machine_3_log.txt:  Developers that use the GNU GPL protect your rights with tw steps:
+machine_3_log.txt:a computer network, with no transfer of a copy, is not conveying.
+machine_4_log.txt:your programs, too.
+machine_4_log.txt:freedoms that you received.  You must make sure that they, to, receive
+machine_4_log.txt:  Developers that use the GNU GPL protect your rights with tw steps:
+machine_4_log.txt:a computer network, with no transfer of a copy, is not conveying.
+machine_5_log.txt:your programs, too.
+machine_5_log.txt:freedoms that you received.  You must make sure that they, to, receive
+machine_5_log.txt:  Developers that use the GNU GPL protect your rights with tw steps:
+machine_5_log.txt:a computer network, with no transfer of a copy, is not conveying.
+machine_6_log.txt:your programs, too.
+machine_6_log.txt:freedoms that you received.  You must make sure that they, to, receive
+machine_6_log.txt:  Developers that use the GNU GPL protect your rights with tw steps:
+machine_6_log.txt:a computer network, with no transfer of a copy, is not conveying.

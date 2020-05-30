@@ -1,0 +1,18 @@
+machine_1_log.txt:that there is no warranty for this free software.  For both users' and
+machine_1_log.txt:  The precise terms and conditions for copying, distribution and
+machine_1_log.txt:License.  Each licensee is addressed as "you".  "Licensees" and
+machine_2_log.txt:that there is no warranty for this free software.  For both users' and
+machine_2_log.txt:  The precise terms and conditions for copying, distribution and
+machine_2_log.txt:License.  Each licensee is addressed as "you".  "Licensees" and
+machine_3_log.txt:that there is no warranty for this free software.  For both users' and
+machine_3_log.txt:  The precise terms and conditions for copying, distribution and
+machine_3_log.txt:License.  Each licensee is addressed as "you".  "Licensees" and
+machine_4_log.txt:that there is no warranty for this free software.  For both users' and
+machine_4_log.txt:  The precise terms and conditions for copying, distribution and
+machine_4_log.txt:License.  Each licensee is addressed as "you".  "Licensees" and
+machine_5_log.txt:that there is no warranty for this free software.  For both users' and
+machine_5_log.txt:  The precise terms and conditions for copying, distribution and
+machine_5_log.txt:License.  Each licensee is addressed as "you".  "Licensees" and
+machine_6_log.txt:that there is no warranty for this free software.  For both users' and
+machine_6_log.txt:  The precise terms and conditions for copying, distribution and
+machine_6_log.txt:License.  Each licensee is addressed as "you".  "Licensees" and

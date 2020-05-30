@@ -1,0 +1,78 @@
+machine_1_log.txt:GNU GENERAL PUBLIC LICENSE
+machine_1_log.txt: of this license document, but changing it is not allowed.
+machine_1_log.txt:  The GNU General Public License is a free, copyleft license for
+machine_1_log.txt:  The licenses for most software and other practical works are designed
+machine_1_log.txt:the GNU General Public License is intended to guarantee your freedom to
+machine_1_log.txt:GNU General Public License for most of our software; it applies also to
+machine_1_log.txt:price.  Our General Public Licenses are designed to make sure that you
+machine_1_log.txt:(1) assert copyright on the software, and (2) offer you this License
+machine_1_log.txt:  "This License" refers to version 3 of the GNU General Public License.
+machine_1_log.txt:  "The Program" refers to any copyrightable work licensed under this
+machine_1_log.txt:License.  Each licensee is addressed as "you".  "Licensees" and
+machine_1_log.txt:extent that warranties are provided), that licensees may convey the
+machine_1_log.txt:work under this License, and how to view a copy of this License.  If
+machine_2_log.txt:GNU GENERAL PUBLIC LICENSE
+machine_2_log.txt: of this license document, but changing it is not allowed.
+machine_2_log.txt:  The GNU General Public License is a free, copyleft license for
+machine_2_log.txt:  The licenses for most software and other practical works are designed
+machine_2_log.txt:the GNU General Public License is intended to guarantee your freedom to
+machine_2_log.txt:GNU General Public License for most of our software; it applies also to
+machine_2_log.txt:price.  Our General Public Licenses are designed to make sure that you
+machine_2_log.txt:(1) assert copyright on the software, and (2) offer you this License
+machine_2_log.txt:  "This License" refers to version 3 of the GNU General Public License.
+machine_2_log.txt:  "The Program" refers to any copyrightable work licensed under this
+machine_2_log.txt:License.  Each licensee is addressed as "you".  "Licensees" and
+machine_2_log.txt:extent that warranties are provided), that licensees may convey the
+machine_2_log.txt:work under this License, and how to view a copy of this License.  If
+machine_3_log.txt:GNU GENERAL PUBLIC LICENSE
+machine_3_log.txt: of this license document, but changing it is not allowed.
+machine_3_log.txt:  The GNU General Public License is a free, copyleft license for
+machine_3_log.txt:  The licenses for most software and other practical works are designed
+machine_3_log.txt:the GNU General Public License is intended to guarantee your freedom to
+machine_3_log.txt:GNU General Public License for most of our software; it applies also to
+machine_3_log.txt:price.  Our General Public Licenses are designed to make sure that you
+machine_3_log.txt:(1) assert copyright on the software, and (2) offer you this License
+machine_3_log.txt:  "This License" refers to version 3 of the GNU General Public License.
+machine_3_log.txt:  "The Program" refers to any copyrightable work licensed under this
+machine_3_log.txt:License.  Each licensee is addressed as "you".  "Licensees" and
+machine_3_log.txt:extent that warranties are provided), that licensees may convey the
+machine_3_log.txt:work under this License, and how to view a copy of this License.  If
+machine_4_log.txt:GNU GENERAL PUBLIC LICENSE
+machine_4_log.txt: of this license document, but changing it is not allowed.
+machine_4_log.txt:  The GNU General Public License is a free, copyleft license for
+machine_4_log.txt:  The licenses for most software and other practical works are designed
+machine_4_log.txt:the GNU General Public License is intended to guarantee your freedom to
+machine_4_log.txt:GNU General Public License for most of our software; it applies also to
+machine_4_log.txt:price.  Our General Public Licenses are designed to make sure that you
+machine_4_log.txt:(1) assert copyright on the software, and (2) offer you this License
+machine_4_log.txt:  "This License" refers to version 3 of the GNU General Public License.
+machine_4_log.txt:  "The Program" refers to any copyrightable work licensed under this
+machine_4_log.txt:License.  Each licensee is addressed as "you".  "Licensees" and
+machine_4_log.txt:extent that warranties are provided), that licensees may convey the
+machine_4_log.txt:work under this License, and how to view a copy of this License.  If
+machine_5_log.txt:GNU GENERAL PUBLIC LICENSE
+machine_5_log.txt: of this license document, but changing it is not allowed.
+machine_5_log.txt:  The GNU General Public License is a free, copyleft license for
+machine_5_log.txt:  The licenses for most software and other practical works are designed
+machine_5_log.txt:the GNU General Public License is intended to guarantee your freedom to
+machine_5_log.txt:GNU General Public License for most of our software; it applies also to
+machine_5_log.txt:price.  Our General Public Licenses are designed to make sure that you
+machine_5_log.txt:(1) assert copyright on the software, and (2) offer you this License
+machine_5_log.txt:  "This License" refers to version 3 of the GNU General Public License.
+machine_5_log.txt:  "The Program" refers to any copyrightable work licensed under this
+machine_5_log.txt:License.  Each licensee is addressed as "you".  "Licensees" and
+machine_5_log.txt:extent that warranties are provided), that licensees may convey the
+machine_5_log.txt:work under this License, and how to view a copy of this License.  If
+machine_6_log.txt:GNU GENERAL PUBLIC LICENSE
+machine_6_log.txt: of this license document, but changing it is not allowed.
+machine_6_log.txt:  The GNU General Public License is a free, copyleft license for
+machine_6_log.txt:  The licenses for most software and other practical works are designed
+machine_6_log.txt:the GNU General Public License is intended to guarantee your freedom to
+machine_6_log.txt:GNU General Public License for most of our software; it applies also to
+machine_6_log.txt:price.  Our General Public Licenses are designed to make sure that you
+machine_6_log.txt:(1) assert copyright on the software, and (2) offer you this License
+machine_6_log.txt:  "This License" refers to version 3 of the GNU General Public License.
+machine_6_log.txt:  "The Program" refers to any copyrightable work licensed under this
+machine_6_log.txt:License.  Each licensee is addressed as "you".  "Licensees" and
+machine_6_log.txt:extent that warranties are provided), that licensees may convey the
+machine_6_log.txt:work under this License, and how to view a copy of this License.  If

@@ -1,0 +1,36 @@
+machine_1_log.txt:GNU GENERAL PUBLIC LICENSE
+machine_1_log.txt:  The GNU General Public License is a free, copyleft license for
+machine_1_log.txt:the GNU General Public License is intended to guarantee your freedom to
+machine_1_log.txt:GNU General Public License for most of our software; it applies also to
+machine_1_log.txt:  Developers that use the GNU GPL protect your rights with two steps:
+machine_1_log.txt:  "This License" refers to version 3 of the GNU General Public License.
+machine_2_log.txt:GNU GENERAL PUBLIC LICENSE
+machine_2_log.txt:  The GNU General Public License is a free, copyleft license for
+machine_2_log.txt:the GNU General Public License is intended to guarantee your freedom to
+machine_2_log.txt:GNU General Public License for most of our software; it applies also to
+machine_2_log.txt:  Developers that use the GNU GPL protect your rights with two steps:
+machine_2_log.txt:  "This License" refers to version 3 of the GNU General Public License.
+machine_3_log.txt:GNU GENERAL PUBLIC LICENSE
+machine_3_log.txt:  The GNU General Public License is a free, copyleft license for
+machine_3_log.txt:the GNU General Public License is intended to guarantee your freedom to
+machine_3_log.txt:GNU General Public License for most of our software; it applies also to
+machine_3_log.txt:  Developers that use the GNU GPL protect your rights with two steps:
+machine_3_log.txt:  "This License" refers to version 3 of the GNU General Public License.
+machine_4_log.txt:GNU GENERAL PUBLIC LICENSE
+machine_4_log.txt:  The GNU General Public License is a free, copyleft license for
+machine_4_log.txt:the GNU General Public License is intended to guarantee your freedom to
+machine_4_log.txt:GNU General Public License for most of our software; it applies also to
+machine_4_log.txt:  Developers that use the GNU GPL protect your rights with two steps:
+machine_4_log.txt:  "This License" refers to version 3 of the GNU General Public License.
+machine_5_log.txt:GNU GENERAL PUBLIC LICENSE
+machine_5_log.txt:  The GNU General Public License is a free, copyleft license for
+machine_5_log.txt:the GNU General Public License is intended to guarantee your freedom to
+machine_5_log.txt:GNU General Public License for most of our software; it applies also to
+machine_5_log.txt:  Developers that use the GNU GPL protect your rights with two steps:
+machine_5_log.txt:  "This License" refers to version 3 of the GNU General Public License.
+machine_6_log.txt:GNU GENERAL PUBLIC LICENSE
+machine_6_log.txt:  The GNU General Public License is a free, copyleft license for
+machine_6_log.txt:the GNU General Public License is intended to guarantee your freedom to
+machine_6_log.txt:GNU General Public License for most of our software; it applies also to
+machine_6_log.txt:  Developers that use the GNU GPL protect your rights with two steps:
+machine_6_log.txt:  "This License" refers to version 3 of the GNU General Public License.

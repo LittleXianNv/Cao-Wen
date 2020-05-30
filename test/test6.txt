@@ -1,0 +1,12 @@
+machine_1_log.txt:GNU GENERAL PUBLIC LICENSE
+machine_1_log.txt:GNU General Public License for most of our software; it applies also to
+machine_2_log.txt:GNU GENERAL PUBLIC LICENSE
+machine_2_log.txt:GNU General Public License for most of our software; it applies also to
+machine_3_log.txt:GNU GENERAL PUBLIC LICENSE
+machine_3_log.txt:GNU General Public License for most of our software; it applies also to
+machine_4_log.txt:GNU GENERAL PUBLIC LICENSE
+machine_4_log.txt:GNU General Public License for most of our software; it applies also to
+machine_5_log.txt:GNU GENERAL PUBLIC LICENSE
+machine_5_log.txt:GNU General Public License for most of our software; it applies also to
+machine_6_log.txt:GNU GENERAL PUBLIC LICENSE
+machine_6_log.txt:GNU General Public License for most of our software; it applies also to
