@@ -13,10 +13,10 @@ class testGrep(unittest.TestCase):
     def test1(self):
         remoteRes = {}
         argument = []
-        argument = ["distributed_grep.py","GNU"] #mimic command line arguments
-        remoteRes = distributed_grep.distributedGrep(argument) #get remot results from server
+        argument = ["distributed_grep.py","GNU"] # mimic command line arguments
+        remoteRes = distributed_grep.distributedGrep(argument) # get remot results from server
         f = open("test/test1.txt", "r")
-        groundTruth = f.read() #get ground truth from our test files in test folder
+        groundTruth = f.read() # get ground truth from our test files in test folder
         groundTruth =  ast.literal_eval(groundTruth)
         f.close()
         for key in config.ip_list:
@@ -127,8 +127,7 @@ class testGrep(unittest.TestCase):
             self.assertEqual(groundTruth[key],remoteRes[key])
 
     def test10(self):
-        # manuually change the last ip of config file to a invalid address and corresponds to invalid log file
-
+        # manually change the last ip of config file to a invalid address and corresponds to invalid log file
         remoteRes = {}
         argument = []
         argument = ["distributed_grep.py","^GNU"]
@@ -144,7 +143,6 @@ class testGrep(unittest.TestCase):
                 self.assertEqual(groundTruth[key],remoteRes[key])
             else:
                 continue
-
 
 
 if __name__ == '__main__':
