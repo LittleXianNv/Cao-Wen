@@ -38,7 +38,7 @@ def distributedGrep(argv):
             command = "ssh -i /home/ec2-user/summer.pem " + "ec2-user@" + ip + " grep " + half_command
         else:
             command = "grep " + half_command
-            command = shlex.split(command)
+        command = shlex.split(command)
         process = subprocess.Popen(command,
                                    stdout=subprocess.PIPE,
                                    stderr=subprocess.PIPE)
