@@ -9,10 +9,14 @@ def main():
     argv = sys.argv
     distributedGrep(argv)
 
+
 def distributedGrep(argv):
     ip_list = config_latency.ip_list
     log_file = config_latency.log_file
+    # get start time
     start = time.time()
+    
+    # first call a command to know the ip address of current server
     def get_local_ip():
         command1 = shlex.split("curl http://169.254.169.254/latest/meta-data/public-ipv4")
         process = subprocess.Popen(command1,
@@ -28,7 +32,10 @@ def distributedGrep(argv):
     subprocesses = {}
 
     num = len(argv)
-
+    
+    # we consider two different situations that there are 2 arguments or 3 arguments in total
+    # first distingush argument than distingush server client
+    # call grep commands
     for ip in ip_list:
         if num == 2:
             half_command = argv[1]+" "+log_file[ip]
@@ -44,7 +51,7 @@ def distributedGrep(argv):
                                    stderr=subprocess.PIPE)
 
         subprocesses[ip] = process
-            #subprocesses[ip].returncode
+    
 
     resMap = {}
     sum = 0
@@ -63,7 +70,9 @@ def distributedGrep(argv):
 
         stdout = '\n'.join(arr)
         resMap[key] = stdout
+        #get finish time of each server
         end = time.time()
+        #the sum of all server ending time and then calculate averages
         sum = sum +(end-start)
 
     print(sum/4.0)

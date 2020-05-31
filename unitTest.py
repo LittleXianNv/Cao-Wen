@@ -9,18 +9,20 @@ import unittest
 import ast
 
 class testGrep(unittest.TestCase):
+    # test 1 with grep command grep "GNU"
     def test1(self):
         remoteRes = {}
         argument = []
-        argument = ["distributed_grep.py","GNU"]
-        remoteRes = distributed_grep.distributedGrep(argument)
+        argument = ["distributed_grep.py","GNU"] #mimic command line arguments
+        remoteRes = distributed_grep.distributedGrep(argument) #get remot results from server
         f = open("test/test1.txt", "r")
-        groundTruth = f.read()
+        groundTruth = f.read() #get ground truth from our test files in test folder
         groundTruth =  ast.literal_eval(groundTruth)
         f.close()
         for key in config.ip_list:
             self.assertEqual(groundTruth[key],remoteRes[key])
 
+    # test 2 with grep command grep -i "license"
     def test2(self):
         remoteRes = {}
         argument = []
@@ -33,6 +35,7 @@ class testGrep(unittest.TestCase):
         for key in config.ip_list:
             self.assertEqual(groundTruth[key],remoteRes[key])
 
+    # test 3 with grep command grep -c "that"
     def test3(self):
         remoteRes = {}
         argument = []
@@ -45,6 +48,7 @@ class testGrep(unittest.TestCase):
         for key in config.ip_list:
             self.assertEqual(groundTruth[key],remoteRes[key])
 
+    # test 4 with grep command grep -w "License"
     def test4(self):
         remoteRes = {}
         argument = []
@@ -57,6 +61,7 @@ class testGrep(unittest.TestCase):
         for key in config.ip_list:
             self.assertEqual(groundTruth[key],remoteRes[key])
 
+    # test 5 with grep command grep -o "General"
     def test5(self):
         remoteRes = {}
         argument = []
@@ -69,6 +74,7 @@ class testGrep(unittest.TestCase):
         for key in config.ip_list:
             self.assertEqual(groundTruth[key],remoteRes[key])
 
+    # test 6 with grep command grep "^GNU"
     def test6(self):
         remoteRes = {}
         argument = []
@@ -81,6 +87,7 @@ class testGrep(unittest.TestCase):
         for key in config.ip_list:
             self.assertEqual(groundTruth[key],remoteRes[key])
 
+    # test 7 with grep command grep "and$"
     def test7(self):
         remoteRes = {}
         argument = []
@@ -93,6 +100,7 @@ class testGrep(unittest.TestCase):
         for key in config.ip_list:
             self.assertEqual(groundTruth[key],remoteRes[key])
 
+    # test 8 with grep command grep "..cept"
     def test8(self):
         remoteRes = {}
         argument = []
@@ -105,6 +113,7 @@ class testGrep(unittest.TestCase):
         for key in config.ip_list:
             self.assertEqual(groundTruth[key],remoteRes[key])
 
+    # test9 with grep command grep "t[wo]o"
     def test9(self):
         remoteRes = {}
         argument = []

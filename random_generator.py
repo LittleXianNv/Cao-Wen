@@ -5,6 +5,7 @@ res = ""
 c = ""
 r = 0
 
+# randomly generate strings with lenth less than 9 and the total character number is 500
 for i in range(0,500):
 	num = random.randint(0,9)
 	counter = 0
