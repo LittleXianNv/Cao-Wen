@@ -1,6 +1,7 @@
 import subprocess
 import shlex
 import os
+from threading import Timer
 import sys
 import config
 
@@ -43,24 +44,38 @@ def distributedGrep(argv):
         process = subprocess.Popen(command,
                                    stdout=subprocess.PIPE,
                                    stderr=subprocess.PIPE)
+
         subprocesses[ip] = process
+            #subprocesses[ip].returncode
 
     resMap = {}
     for key in subprocesses:
-        stdout, stderr = subprocesses[key].communicate()
-        stdout = stdout.splitlines()
-        
-        arr = []
-        for i in stdout:
-            sentence = log_file[key]+":"+i
-            arr.append(sentence)
+        timer = Timer(5, process.kill)
+        try:
+            timer.start()
+            stdout, stderr = subprocesses[key].communicate()
+        finally:
+            timer.cancel()
+        returncode = subprocesses[key].returncode
+        if returncode == 0:
+            stdout = stdout.splitlines()
+            arr = []
+            for i in stdout:
+                sentence = log_file[key]+":"+i
+                arr.append(sentence)
+                    
+            display = arr
+            for line in range(len(display)):
+                print(display[line])
+                    
+            stdout = '\n'.join(arr)
+            resMap[key] = stdout
+        else:
+            stderr = stderr.splitlines()
+            print(stderr)
+            continue
 
-        display = arr
-        for line in range(len(display)):
-            print(display[line])
 
-        stdout = '\n'.join(arr)
-        resMap[key] = stdout
 
     return resMap
 

@@ -117,6 +117,26 @@ class testGrep(unittest.TestCase):
         for key in config.ip_list:
             self.assertEqual(groundTruth[key],remoteRes[key])
 
+    def test10(self):
+        # manuually change the last ip of config file to a invalid address and corresponds to invalid log file
+
+        remoteRes = {}
+        argument = []
+        argument = ["distributed_grep.py","^GNU"]
+        
+        remoteRes = distributed_grep.distributedGrep(argument)
+        f = open("test/test10.txt", "r")
+        groundTruth = f.read()
+        groundTruth =  ast.literal_eval(groundTruth)
+        f.close()
+        
+        for key in config.ip_list:
+            if key in groundTruth.keys():
+                self.assertEqual(groundTruth[key],remoteRes[key])
+            else:
+                continue
+
+
 
 if __name__ == '__main__':
     unittest.main()
